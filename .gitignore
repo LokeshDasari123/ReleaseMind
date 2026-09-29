@@ -1,0 +1,26 @@
+# Python environments, caches, and bytecode
+backend/.venv/
+backend/venv/
+**/__pycache__/
+*.py[cod]
+
+# Local credentials and runtime memory database
+backend/.env
+.env
+data/*.sqlite3
+data/*.sqlite3-*
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Internal planning/submission documents: retain locally, keep out of the public repository
+AGENTS.md
+research/
+evaluation/evaluation-plan.md
+docs/demo-script.md
+docs/judging-pitch.md
+docs/hackathon-submission.md
+docs/article-draft.md
+docs/social-post-drafts.md
